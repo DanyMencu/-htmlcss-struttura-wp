@@ -21,6 +21,17 @@
     margin-bottom: 10px;
 }
 
+.pb-10 {
+    padding-bottom: 10px;
+}
+
+.pl-10 {
+    padding-left: 10px;
+}
+
+.clearfix::after {
+    clear: both;
+}
 .content-box {
     width: 100%;
     height: 50px;
@@ -43,6 +54,28 @@
 .principal-section {
     width: 100%;
     background-color: #0186fe;
+    display: inline-block;
+}
+
+.principal-hd-section {
+    width: 100%;
+    background-color: #abcfe7;
+}
+
+.aside-main {
+    float: left;
+    width: 20%;
+    height: 400px;
+    background-color: #abcfe7;
+    display: inline;
+}
+
+.central-main {
+    float: left;
+    width: 60%;
+    height: 400px;
+    background-color: #abcfe7;
 }
 
 /* FOOTER */
+
