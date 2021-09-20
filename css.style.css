@@ -7,9 +7,19 @@
 
 /* UTILITY */
 .container {
-    width: 70%;
-    height: auto;
+    max-width: 1200px;
     margin: 10px auto 0;
+}
+
+.clearfix::after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.px-10 {
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .mb-20 {
@@ -20,65 +30,51 @@
     margin-bottom: 10px;
 }
 
-.ml-10 {
+.ml-1 {
     margin-left: 1%;
 }
 
-.clearfix::after {
-    clear: both;
-}
 .content-box {
-    width: 100%;
-    height: 50px;
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 /* HEADER */
 .header-content {
     width: 100%;
-    height: 75px;
     background-color: #e579e6;
 }
 
 /* MAIN */
 
-.presentation-content {
+/* HERO SECTION */
+.hero {
     width: 100%;
-    height: 200px;
     background-color: #e1d67a;
 }
 
-.principal-section {
+/* COLLUM SECTION */
+
+.collum {
     width: 100%;
     background-color: #0186fe;
     display: inline-block;
 }
 
-.principal-hd-section {
+.collum-hd {
     width: 100%;
-    height: 50px;
-    background-color: #abcfe7;
 }
 
 .aside-main {
     float: left;
     width: 20%;
-    height: 400px;
-    background-color: #abcfe7;
-    display: inline;
-}
-.aside-main-right {
-    float: right;
-    width: 20%;
-    height: 400px;
-    background-color: #abcfe7;
     display: inline;
 }
 
 .central-main {
     float: left;
-    width: 58%;
-    height: 400px;
-    background-color: #abcfe7;
+    width: 60%;
 }
 
 /* FOOTER */
